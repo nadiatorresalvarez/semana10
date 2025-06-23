@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import NavbarPages from '../components/NavbarPages';
 
 export default function Custom404() {

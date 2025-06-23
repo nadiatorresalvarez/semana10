@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Script from 'next/script';
 
 export default function NavbarPages() {
   const router = useRouter();
@@ -72,9 +73,10 @@ export default function NavbarPages() {
       />
       
       {/* Bootstrap JS CDN */}
-      <script 
+      <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      ></script>
+        strategy="afterInteractive"
+      />
     </>
   );
 }
