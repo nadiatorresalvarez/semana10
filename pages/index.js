@@ -10,7 +10,8 @@ export default function Home() {
         <meta property="og:title" content="Inicio | Mi Sitio Web" />
         <meta property="og:description" content="Bienvenido a la página de inicio de Mi Sitio Web. Descubre nuestros servicios y productos." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://naditor.com/" />
+        <meta property="og:url" content="https://nadiator.vercel.app/" />
+        <meta name="google-site-verification" content="tlzs_LfJf14gbOSa1vhGjBV6sqUOrxBLf08V7zUEouw" />
       </Head>
       <NavbarPages />
       <div className="container py-5">

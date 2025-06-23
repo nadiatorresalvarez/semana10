@@ -10,7 +10,8 @@ export default function Contact() {
         <meta property="og:title" content="Contacto | Mi Sitio Web" />
         <meta property="og:description" content="Contáctanos para más información sobre nuestros servicios y productos." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://naditor.com/contact" />
+        <meta property="og:url" content="https://nadiator.vercel.app/" />
+        <meta name="google-site-verification" content="tlzs_LfJf14gbOSa1vhGjBV6sqUOrxBLf08V7zUEouw" />
       </Head>
       <NavbarPages />
       <div className="container my-5">

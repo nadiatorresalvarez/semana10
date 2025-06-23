@@ -39,7 +39,8 @@ export default function BlogPost() {
         <meta property="og:title" content={post ? post.title : 'Post no encontrado'} />
         <meta property="og:description" content={post ? post.content.substring(0, 150) : 'Post no encontrado.'} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://naditor.com/blog/${id}`} />
+        <meta property="og:url" content={`https://nadiator.vercel.app/blog/${id}`} />
+        <meta name="google-site-verification" content="tlzs_LfJf14gbOSa1vhGjBV6sqUOrxBLf08V7zUEouw" />
       </Head>
       
       <NavbarPages />

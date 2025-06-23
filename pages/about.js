@@ -10,7 +10,8 @@ export default function About() {
         <meta property="og:title" content="Acerca de Nosotros | Mi Sitio Web" />
         <meta property="og:description" content="Conoce más sobre nuestro equipo y cómo desarrollamos aplicaciones web modernas con Next.js, React y Bootstrap." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://naditor.com/about" />
+        <meta property="og:url" content="https://nadiator.vercel.app/" />
+        <meta name="google-site-verification" content="tlzs_LfJf14gbOSa1vhGjBV6sqUOrxBLf08V7zUEouw" />
       </Head>
       <NavbarPages />
       
